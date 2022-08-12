@@ -1,0 +1,26 @@
+#options {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#blanket {
+    width: 100vw;
+    height: 250px;
+    background-image: url(../assets/picnic-blanket.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+#basket {
+    width: 250px;
+}
+
+.picked {
+    transform: translateY(125px);
+}
